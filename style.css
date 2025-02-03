@@ -69,9 +69,11 @@ h1 {
     color: white;
     background-color: #23272a;
     padding: 15px;
-    border-radius: 45%;
+    border-radius: 40%;
     border: none;
 }
+
+
 
 .study-group {
     display: flex;
@@ -85,7 +87,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
 }
 
 .text-section {
@@ -93,11 +94,68 @@ h1 {
 }
 
 .h2 {
-    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .text-section p {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.voice-connected {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f6f6f6;
+    max-width: max-content;
+}
+
+.image-voice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.voice-text {
+    padding: 30px;
+}
+
+.h2 {
+    margin-bottom: 20px;
+}
+
+.voice-text p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.community {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.image-community {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.text-community {
+    padding: 30px;
+}
+
+.h2 {
+    margin-bottom: 20px;
+}
+
+.text-community p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
 }
