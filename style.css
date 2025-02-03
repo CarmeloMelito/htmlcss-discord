@@ -63,13 +63,14 @@ h1 {
 .button-class {
     text-align: center;
     padding: 15px;
+
 }
 
 .button-black {
     color: white;
     background-color: #23272a;
     padding: 15px;
-    border-radius: 40%;
+    border-radius: 40px;
     border: none;
 }
 
@@ -158,4 +159,19 @@ h1 {
     text-align: center;
     margin-top: 20px;
     font-size: 18px;
+}
+
+.condivisione {
+    text-align: center;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+
+.scarica {
+    background-color: #7288da;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    margin-top: 20px;
 }
