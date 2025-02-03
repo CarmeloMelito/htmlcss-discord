@@ -7,29 +7,37 @@
 
 header {
     display: flex;
-    justify-content: space-around;
     padding: 15px;
     background-image: url(img/jumbo.png);
     color: white;
     background-size: cover;
-    background-position: 100%;
+    background-position: 200%;
+    flex-direction: column;
+    /* height: 580px;
+    width: 1200px; */
 
 
 }
 
+.item-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .item-login {
     border-radius: 40px;
-    padding: 10px;
+    padding: 15px;
     border: none;
-    justify-content: flex-end;
 
 }
 
 .link {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 15px;
-    align-items: flex-start;
+    align-items: center;
+
 }
 
 .link div {
@@ -59,7 +67,10 @@ h1 {
 
 .button-black {
     color: white;
-    background-color: black;
-    padding: 10px;
+    background-color: #23272a;
+    padding: 15px;
     border-radius: 40%;
+    border: none;
+    text-align: start;
+
 }
